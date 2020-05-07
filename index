@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>정리 - 시험</title>
+  <meta charest="utf-8">
+
+</head>
+<body>
+    <h1><li><a href="index.html">정리</a><br><input type="button" value="사이트 설명" onclick="alert('이 페이지는 백은혜가 제작한 웹 페이지 입니다.')"></li></h1>
+    <input type="button"value="어둡게"onclick="document.querySelector('body').style.backgroundColor='black';
+    document.querySelector('body').style.color='white';">
+    <input type="button"value="밝게"onclick="document.querySelector('body').style.backgroundColor='white';
+    document.querySelector('body').style.color='black';">
+  <ol>
+    <h3><li><a href="1.html">1학년 1학기</a></li></h3>
+    <h3><li><a href="2.html">1학년 2학기</a></li></h3>
+    <h3><li><a href="3.html">2학년 1학기</a></li></h3>
+    <H3><LI><A href="4.html">2학년 2학기</a></li></h3>
+  </ol>
+
+  <p>
+
+  <img src="공부자극 1.jpg"width=400>
+  <br><br>
+
+  <p>
+    <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://all-fem.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})()
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5d4bf520e5ae967ef80f11dc/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+  </body>
+  </html>
